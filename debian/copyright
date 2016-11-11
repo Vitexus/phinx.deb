@@ -1,0 +1,14 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=143
+Upstream-Name: Phinx
+Upstream-Source: https://github.com/robmorgan/phinx/releases/latest
+
+Files: *
+Homepage: https://phinx.org
+Copyright:
+ (c) 2014 Rob Morgan
+License: MIT
+
+License: GPL-2
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+

@@ -1,0 +1,21 @@
+Source: php-phinx
+Build-Depends: debhelper (>= 7.0.50~),po-debconf
+Standards-Version: 3.8.4
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Uploaders: Vitex <vitex@hippy.cz>
+Priority: optional
+Homepage: https://phinx.org/
+
+Package: php-phinx
+Depends: ${misc:Depends},composer,php5-common | php7.0-common
+Recommends: php5-common|php7-common,php5-mysqlnd|php7-mysqlnd,php5-pgsql|php7-pgsql,php5-sqlite|php7-sqlite,php5-sybase|php7-sybase
+Suggests: mysql-server,postgresql-server
+Architecture: all
+Section: development
+Priority: optional
+Description: PHP Database Migrations for Everyone
+ Phinx makes it ridiculously easy to manage the database 
+ migrations for your PHP app. In less than 5 minutes you 
+ can install Phinx and create your first database migration. 
+ Phinx is just about migrations without all the bloat 
+ of a database ORM system or framework.
