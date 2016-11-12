@@ -7,7 +7,7 @@ Priority: optional
 Homepage: https://phinx.org/
 
 Package: php-phinx
-Depends: ${misc:Depends},composer,php5-common | php7.0-common
+Depends: ${misc:Depends},php5-common | php7.0-common
 Suggests: mysql-server,postgresql-server,php5-common|php7-common,php5-mysqlnd|php7-mysqlnd,php5-pgsql|php7-pgsql,php5-sqlite|php7-sqlite,php5-sybase|php7-sybase
 Architecture: all
 Section: development
