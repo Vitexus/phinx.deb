@@ -1,7 +1,7 @@
 Phinx Debian Package
 ====================
 
-![apt-get install](https://raw.githubusercontent.com/Vitexus/phinx.deb/master/phinx-deb-install.png "apt-get install php-phinx")
+![apt-get install](https://raw.githubusercontent.com/Vitexus/phinx.deb/master/phinx-install-deb.png "apt-get install php-phinx")
 
 Phinx (https://phinx.org/) makes it ridiculously easy to manage the database migrations for your PHP app. In less than 5 minutes you can install Phinx and create your first database migration. Phinx is just about migrations without all the bloat of a database ORM system or framework.
 
@@ -16,7 +16,7 @@ For Debian, Ubuntu & friends please use repo:
     aptitude update
     aptitude install php-phinx
 
-![Installation](https://raw.githubusercontent.com/Vitexus/phinx.deb/master/phinx-install-deb.png "Installation")
+![Installation](https://raw.githubusercontent.com/Vitexus/phinx.deb/master/phinx-deb-install.png "Installation")
 
 
 Usage
