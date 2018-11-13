@@ -1,20 +1,11 @@
-php-phinx (0.6.5-1) UNRELEASED; urgency=medium
+php-phinx (0.10.6) UNRELEASED; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
-  * Prepare v0.6.5
+  * PHP5 support removed
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sat, 12 Nov 2016 00:00:25 +0100
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 13 Nov 2018 17:05:45 +0100
+
+php-phinx (0.10.3) experimental; urgency=medium
+
+  * Prepare v0.10.0 
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 04 Jul 2018 00:33:18 +0200

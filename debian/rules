@@ -3,3 +3,11 @@
 %:
 	dh $@
 
+override_dh_install:
+	phar-composer build https://github.com/cakephp/phinx
+	mv phinx.phar phinx
+	dh_install
+
+override_dh_clean:
+	rm -f phinx
+	dh_clean
