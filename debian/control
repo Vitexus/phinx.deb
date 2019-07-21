@@ -1,14 +1,14 @@
 Source: php-phinx
 Build-Depends: debhelper (>= 7.0.50~),po-debconf
-Standards-Version: 3.8.4
+Standards-Version: 4.4.0
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Priority: optional
-Homepage: https://phinx.org/
+Homepage: https://github.com/Vitexus/phinx.deb
 
 Package: php-phinx
-Depends: ${misc:Depends}, php7.0-common | php7.1-common | php7.2-common | php7.3-common
-Suggests: default-mysql-server,postgresql-server,php7-mysqlnd|php7.1-mysqlnd,php-pgsql|php7-pgsql|php7.1-pgsql|php7.2-pgsql|php7.3-pgsql,php7-sqlite|php7.1-sqlite|php7.2-sqlite|php7.3-sqlite,php7-sybase|php7.1-sybase|php7.2-sybase|php7.3-sybase
+Depends: ${misc:Depends}, php7.0-common | php7.1-common | php7.2-common | php7.3-common | php7.4-common
+Suggests: default-mysql-server,postgresql-server,php7-mysqlnd|php7.1-mysqlnd|php7.2-mysql|php7.4-mysql,php-pgsql|php7-pgsql|php7.1-pgsql|php7.2-pgsql|php7.3-pgsql|php7.4-pgsql,php7-sqlite|php7.1-sqlite|php7.2-sqlite|php7.3-sqlite,php7-sybase|php7.1-sybase|php7.2-sybase|php7.3-sybase|php7.4-sybase
 Architecture: all
 Section: development
 Priority: optional

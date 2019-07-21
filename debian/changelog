@@ -1,9 +1,13 @@
-php-phinx (0.10.7-1) UNRELEASED; urgency=medium
+php-phinx (0.10.8-0) UNRELEASED; urgency=medium
 
+  [ Vítězslav Dvořák ]
   * PHP5 support removed
   * PHP 7.1-7.3 support added
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 13 Nov 2018 17:17:22 +0100
+  [ root ]
+  * 
+
+ -- root <root@develoid.jinonice.czf>  Sun, 21 Jul 2019 23:15:54 +0200
 
 php-phinx (0.10.3) experimental; urgency=medium
 
